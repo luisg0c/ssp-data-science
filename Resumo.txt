@@ -1,0 +1,59 @@
+1. Compreensão do Negócio
+O problema analisado é a incidência de crimes de estupro e estupro de vulnerável registrados no Piauí. O objetivo da análise é identificar padrões relevantes para apoiar a Secretaria de Segurança Pública do Piauí (SSP-PI) na tomada de decisões estratégicas.
+
+2. Compreensão dos Dados
+O dataset contém informações sobre vítimas, autores, localidades, natureza do crime e se o caso foi registrado na Delegacia da Mulher.
+
+Identificamos 2 tipos principais de crime: Estupro e Estupro de Vulnerável.
+
+As vítimas são predominantemente femininas e pardas.
+
+A idade das vítimas varia de crianças a adultos, com concentração em faixas mais jovens.
+
+Em muitos casos, a autoria do crime é conhecida.
+
+3. Preparação dos Dados
+Foram removidas duplicatas.
+
+Valores nulos em campos importantes como cor e escolaridade da vítima foram preenchidos como "NÃO INFORMADO".
+
+4. Análise Exploratória
+Tipo de Crime: "Estupro de Vulnerável" é o tipo mais frequente.
+
+Sexo das Vítimas: Mais de 90% são do sexo feminino.
+
+Cor das Vítimas: Maioria parda.
+
+Autoria Conhecida: Em grande parte dos casos, a autoria é conhecida.
+
+Bairros com Mais Ocorrências: Foram identificados os 10 bairros com maior incidência de crimes.
+
+Delegacia da Mulher: Nem todos os casos foram registrados na Delegacia da Mulher.
+
+5. Padrões Identificados
+A maior parte das vítimas são jovens mulheres pardas.
+
+Os crimes ocorrem majoritariamente em residências.
+
+A existência de autoria conhecida em muitos registros indica a importância de campanhas de prevenção envolvendo círculos sociais próximos.
+
+6. Sugestões
+Fortalecer ações preventivas em bairros mais críticos.
+
+Aumentar o suporte para vítimas jovens.
+
+Incentivar o registro de casos diretamente nas Delegacias da Mulher.
+
+✅ Com isso cobrimos:
+
+Compreensão do negócio
+
+Compreensão dos dados
+
+Preparação dos dados
+
+Análise exploratória
+
+Respostas às perguntas obrigatórias
+
+Padrões e insights para a segurança pública
