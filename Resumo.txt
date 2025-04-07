@@ -57,3 +57,59 @@ Análise exploratória
 Respostas às perguntas obrigatórias
 
 Padrões e insights para a segurança pública
+
+🔹 Bloco 1 – Importação de bibliotecas
+Importou as bibliotecas necessárias para análise de dados (pandas, numpy) e para gráficos (matplotlib, seaborn).
+
+🔹 Bloco 2 – Carregamento dos dados
+Carregou o arquivo Excel e leu a planilha "ESTUPRO_ESTUPRO DE VULNERÁVEL" para dentro do df.
+
+🔹 Bloco 3 – Informações do dataset
+Mostrou o resumo das colunas, quantidade de valores nulos e tipos de dados (int, float, object).
+
+🔹 Bloco 4 – Estatísticas descritivas
+Mostrou média, desvio padrão, mínimos e máximos das colunas numéricas (ex: idade das vítimas e autores).
+
+🔹 Bloco 5 – Verificação de valores nulos
+Mostrou quantos valores nulos (NaN) existem em cada coluna.
+
+🔹 Bloco 6 – Remoção de duplicatas
+Removeu linhas repetidas para evitar erro na análise.
+
+🔹 Bloco 7 – Tratamento de valores nulos
+Preencheu os valores nulos em cor da vítima, escolaridade e autoria conhecida com o texto "NÃO INFORMADO".
+
+🔹 Bloco 8 – Contagem de crimes
+Mostrou quantos casos existem de Estupro e Estupro de Vulnerável.
+
+🔹 Bloco 9 – Gráfico de tipos de crimes
+Gerou um gráfico de barras mostrando a quantidade de cada tipo de crime.
+
+🔹 Bloco 10 – Distribuição da idade das vítimas
+Fez um histograma (gráfico de barras) mostrando as idades das vítimas.
+
+🔹 Bloco 11 – Distribuição do sexo das vítimas
+Mostrou a quantidade de vítimas femininas e masculinas.
+
+🔹 Bloco 12 – Distribuição da cor das vítimas
+Mostrou a distribuição das cores (raças) das vítimas registradas.
+
+🔹 Bloco 13 – Casos com autoria conhecida
+Mostrou quantos casos têm autoria conhecida e quantos não têm.
+
+🔹 Bloco 14 – Top 10 bairros com mais ocorrências
+Listou os 10 bairros onde mais crimes aconteceram.
+
+🔹 Bloco 15 – Gráfico dos 10 bairros
+Fez um gráfico de barras dos bairros mais perigosos.
+
+🔹 Bloco 16 – Casos registrados na Delegacia da Mulher
+Mostrou se o crime foi registrado ou não na Delegacia da Mulher.
+
+Resumindo geral:
+
+Células 1–4 → Carregar e conhecer o dataset
+
+Células 5–7 → Limpar e preparar os dados
+
+Células 8–16 → Analisar os dados e gerar gráficos
